@@ -1,7 +1,7 @@
 # Idle Boss Rush — Auto Freeze Clicker
 
 Auto-clicker that detects and clicks **freeze** power-up icons in
-[Idle Boss Rush](https://store.steampowered.com/app/2936070/Idle_Boss_Rush/) (Steam).
+[Idle Boss Rush](https://store.steampowered.com/app/3436030/IDLE_BOSS_RUSH/) (Steam).
 
 ![freeze icon](freeze_icon.jpg)
 
