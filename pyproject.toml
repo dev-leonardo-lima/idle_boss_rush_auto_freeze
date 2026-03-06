@@ -1,0 +1,26 @@
+[project]
+name = "idle-boss-rush-auto-freeze"
+version = "1.0.0"
+description = "Auto-clicker for freeze icons in Idle Boss Rush (Steam)"
+authors = [
+    {name = "Leonardo Lima", email = "zdarkordening@gmail.com"}
+]
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.12"
+dependencies = [
+    "opencv-python>=4.9",
+    "numpy>=1.26",
+    "mss>=9.0",
+    "pyautogui>=0.9",
+]
+
+[tool.poetry]
+packages = [{include = "idle_boss_rush_auto_freeze", from = "src"}]
+
+[project.scripts]
+auto-freeze = "idle_boss_rush_auto_freeze.__main__:main"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
